@@ -2,13 +2,27 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+@font-face {
+    font-family: 'Wizard of the Moon';
+    src: url('wizard_of_the_moon.ttf');
+    src:url('wizard_of_the_moon.eot?#iefix') format('embedded-opentype'),
+    url('wizard_of_the_moon.svg#wizard_of_the_moon') format('svg'),
+    url('wizard_of_the_moon.woff') format('woff'),
+    url('wizard_of_the_moon.ttf') format('truetype');
+}
+
+body {
+	font-family: Helvetica, arial, sans-serif;
+}
+
 div#header {
 	margin: 0 auto;
-	text-align: center;
 	font-size: 24px;
+	font-family: 'Wizard of the Moon', Helvetica, arial, sans-serif;
 	h1 {
 		font-size: 48px;
 		font-weight: 800;
+		text-align: center;
 	}
 	ul {
 		list-style-type: none;
