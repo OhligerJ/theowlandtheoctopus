@@ -30,6 +30,15 @@ div#header {
 	ul {
 		list-style-type: none;
 	}
+	.center {
+		ul {
+			margin-left:25%;
+			margin-right: 25%;
+		}
+		p {
+			text-align: center;
+		}
+	}
 }
 
 .center {
