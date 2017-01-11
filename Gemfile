@@ -34,7 +34,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'actionpack'
 gem 'execjs'
 gem 'less-rails'
-gem 'railties'
+# gem 'railties'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 gem 'twitter-bootstrap-rails'
