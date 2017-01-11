@@ -15,8 +15,8 @@
 
 body {
 	font-family: Helvetica, arial, sans-serif;
-	background: asset-url("radial_rainbow.jpg");
-	background-size: cover no-repeat;
+	background: asset-url("radial_rainbow.jpg") no-repeat;
+	background-size: cover;
 }
 
 #main {
