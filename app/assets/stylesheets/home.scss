@@ -18,11 +18,12 @@ body {
 div#header {
 	margin: 0 auto;
 	font-size: 24px;
-	font-family: 'Wizard of the Moon', Helvetica, arial, sans-serif;
+	width:100%;
 	h1 {
 		font-size: 48px;
 		font-weight: 800;
 		text-align: center;
+		font-family: 'Wizard of the Moon', Helvetica, arial, sans-serif;
 	}
 	ul {
 		list-style-type: none;
